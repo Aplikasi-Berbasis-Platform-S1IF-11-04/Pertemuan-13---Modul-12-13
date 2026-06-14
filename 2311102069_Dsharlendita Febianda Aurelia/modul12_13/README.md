@@ -19,6 +19,15 @@ Setiap kali tombol tambah (`+`) ditekan, aplikasi akan memanggil method `showNot
 
 Dengan demikian, setiap perubahan nilai counter akan langsung memberikan informasi kepada pengguna melalui notifikasi lokal yang muncul pada perangkat.
 
-### Kesimpulan
-
-Aplikasi berhasil mengimplementasikan **State Management Provider** untuk mengelola data counter dan **Local Notification** untuk memberikan pemberitahuan setiap kali nilai counter berubah. Provider mempermudah pengelolaan state aplikasi, sedangkan notifikasi membantu pengguna mengetahui perubahan nilai counter secara langsung.
+<table>
+  <tr>
+    <td align="center">
+      <img src="Screenshot/Output%201.png" width="200"><br>
+      Output 1
+    </td>
+    <td align="center">
+      <img src="Screenshot/Output%202.png" width="200"><br>
+      Output 2
+    </td>
+  </tr>
+</table>
