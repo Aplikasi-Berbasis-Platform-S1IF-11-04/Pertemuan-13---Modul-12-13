@@ -36,7 +36,7 @@ class CounterPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tugas 13 - Mobile'),
+        title: const Text('Tugas Modul 13 - Mobile'),
       ),
       body: Center(
         child: Text(
