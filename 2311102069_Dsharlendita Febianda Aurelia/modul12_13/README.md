@@ -1,17 +1,19 @@
-# modul12_13
 
-A new Flutter project.
 
-## Getting Started
+### Cara Kerja Provider pada Aplikasi
 
-This project is a starting point for a Flutter application.
+Pada aplikasi ini digunakan package **Provider** sebagai state management untuk mengelola nilai counter. Provider bekerja dengan membuat class `CounterProvider` yang mewarisi `ChangeNotifier`. Class tersebut menyimpan nilai counter dan menyediakan method `increment()` untuk menambah nilai counter.
 
-A few resources to get you started if this is your first Flutter project:
+Ketika tombol tambah (`+`) ditekan, method `increment()` akan dijalankan sehingga nilai counter bertambah satu. Setelah itu, method `notifyListeners()` dipanggil untuk memberi tahu widget yang menggunakan Provider bahwa terjadi perubahan data. Akibatnya, tampilan nilai counter pada layar akan diperbarui secara otomatis tanpa perlu melakukan refresh secara manual.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Cara Kerja Notifikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pada aplikasi ini digunakan package **flutter_local_notifications** untuk menampilkan notifikasi lokal pada perangkat Android. Sebelum digunakan, notifikasi diinisialisasi melalui `NotificationService.init()` saat aplikasi dijalankan.
+
+Setiap kali tombol tambah (`+`) ditekan, aplikasi akan memanggil method `showNotification()` yang terdapat pada `NotificationService`. Method tersebut menampilkan notifikasi dengan judul **"Counter Update"** dan pesan **"Nilai counter saat ini: X"**, di mana X merupakan nilai counter terbaru.
+
+Dengan demikian, setiap perubahan nilai counter akan langsung memberikan informasi kepada pengguna melalui notifikasi lokal yang muncul pada perangkat.
+
+### Kesimpulan
+
+Aplikasi berhasil mengimplementasikan **State Management Provider** untuk mengelola data counter dan **Local Notification** untuk memberikan pemberitahuan setiap kali nilai counter berubah. Provider mempermudah pengelolaan state aplikasi, sedangkan notifikasi membantu pengguna mengetahui perubahan nilai counter secara langsung.
