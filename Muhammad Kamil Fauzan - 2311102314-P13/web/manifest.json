@@ -1,0 +1,11 @@
+{
+  "name": "P13 Provider Notifikasi",
+  "short_name": "P13 Provider",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#2563EB",
+  "description": "Aplikasi counter Flutter Web dengan Provider dan Browser Local Notification.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
