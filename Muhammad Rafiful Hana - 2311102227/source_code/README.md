@@ -5,7 +5,7 @@
 
 <br>
 <p align="center">
-  <img src="output/logo telkom university.png" width="150"/>
+  <img src="https://raw.githubusercontent.com/Aplikasi-Berbasis-Platform-S1IF-11-04/Pertemuan-9-Mobile/refs/heads/main/Muhammad%20Rafiful%20Hana%20-%202311102227/source_code/output/logo%20telkom%20university.png" width="150"/>
 </p>
 <br>
 
@@ -538,7 +538,7 @@ Dengan demikian, setiap perubahan nilai counter akan langsung memberikan informa
 
 ### Output 1 - Tampilan Awal Aplikasi
 
-<img src="output/Output%201.png" width="250">
+<img src="https://raw.githubusercontent.com/Aplikasi-Berbasis-Platform-S1IF-11-04/Pertemuan-13---Modul-12-13/main/Muhammad%20Rafiful%20Hana%20-%202311102227/source_code/output/Output%201.png" width="250">
 
 Tampilan awal aplikasi Coffee Counter saat pertama kali dijalankan.
 
@@ -546,7 +546,7 @@ Tampilan awal aplikasi Coffee Counter saat pertama kali dijalankan.
 
 ### Output 2 - Setelah Tombol Tambah Ditekan
 
-<img src="output/Output%202.png" width="250">
+<img src="https://raw.githubusercontent.com/Aplikasi-Berbasis-Platform-S1IF-11-04/Pertemuan-13---Modul-12-13/main/Muhammad%20Rafiful%20Hana%20-%202311102227/source_code/output/Output%202.png" width="250">
 
 Tampilan aplikasi setelah tombol **Tambah +1** ditekan beberapa kali.
 
@@ -554,6 +554,6 @@ Tampilan aplikasi setelah tombol **Tambah +1** ditekan beberapa kali.
 
 ### Output 3 - Notifikasi Lokal
 
-<img src="output/Output%203.png" width="250">
+<img src="https://raw.githubusercontent.com/Aplikasi-Berbasis-Platform-S1IF-11-04/Pertemuan-13---Modul-12-13/main/Muhammad%20Rafiful%20Hana%20-%202311102227/source_code/output/Output%203.png" width="250">
 
 Notifikasi lokal yang muncul setiap kali tombol **Tambah +1** ditekan, menampilkan pesan "Nilai counter saat ini: X".
